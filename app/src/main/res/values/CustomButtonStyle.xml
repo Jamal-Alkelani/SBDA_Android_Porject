@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="CustomButtonStyle">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">10</item>
+        <item name="android:shadowDy">10</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:radius">16dp</item>
+        <item name="android:innerRadius">20px</item>
+
+    </style>
+
+</resources>

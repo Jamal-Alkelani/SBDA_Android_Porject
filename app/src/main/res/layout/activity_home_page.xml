@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sbda.gamal.sbda_android_porject.HomePage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcfcfc"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bankcardId"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@mipmap/learn_round" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Learn"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Discover how blood donation works and who it helps"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@mipmap/eligibility_round" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Eligibility"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="See if you could be able to donate blood"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@mipmap/trophy_round" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Leader board"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="See top people who donated with blood"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@mipmap/charity_round" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Other ways to help"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="a lot of other ways to help paitents"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@mipmap/discover_round" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Discover"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Find places to donate"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@mipmap/settings_round" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Settings"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Set your prefered settings"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
