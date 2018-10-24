@@ -3,6 +3,7 @@ package com.sbda.gamal.sbda_android_porject;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.codemybrainsout.onboarder.AhoyOnboarderActivity;
 import com.codemybrainsout.onboarder.AhoyOnboarderCard;
@@ -31,6 +32,8 @@ public class getStarted extends AhoyOnboarderActivity {
         }
         else{
             onFinishButtonPressed();
+            getSharedPreferences("BOOT_PREF", MODE_PRIVATE)
+                    .edit().remove("BOOT_PREF");
         }
 
         String []descriptions={
@@ -103,7 +106,7 @@ public class getStarted extends AhoyOnboarderActivity {
 
 
         List<AhoyOnboarderCard> pages = new ArrayList<>();
-        pages.add(ahoyOnboarderCard1);
+//        pages.add(ahoyOnboarderCard1);
         pages.add(ahoyOnboarderCard2);
         pages.add(ahoyOnboarderCard3);
         pages.add(ahoyOnboarderCard4);
